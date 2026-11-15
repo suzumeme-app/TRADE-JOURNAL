@@ -22,9 +22,9 @@ svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke
 header{height:68px;padding:0 clamp(16px,4vw,48px);display:flex;align-items:center;justify-content:space-between;background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
 .brand{font-size:19px;font-weight:750;letter-spacing:.02em}.brand span{color:var(--accent)}.head-actions{display:flex;gap:9px;align-items:center}
 .icon-btn{width:40px;height:40px;border-radius:12px;background:var(--bg);display:grid;place-items:center}.icon-btn:hover,.tool-btn:hover,.small-icon:hover{background:var(--soft)}
-main{max-width:1440px;margin:0 auto;padding:30px clamp(16px,4vw,48px) 100px}
+main{max-width:1800px;margin:0 auto;padding:30px clamp(16px,4vw,48px) 100px}
 .topline{display:flex;align-items:end;justify-content:space-between;margin-bottom:22px;gap:12px}.topline h1{font-size:25px;margin:0 0 5px}.sub,.hint{color:var(--muted);font-size:12px}.count{color:var(--muted);font-size:13px}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:20px}
 .card{display:flex;flex-direction:column;background:var(--panel);border:1px solid var(--line);border-radius:17px;overflow:hidden;box-shadow:var(--shadow);min-width:0;cursor:pointer;transition:transform .15s,border-color .15s}.card:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
 .card-image{position:relative;flex:none;height:230px;background:var(--bg);display:flex;align-items:center;justify-content:center;overflow:hidden;cursor:zoom-in}.card-image img{width:100%;height:100%;object-fit:contain}
 .no-image{color:var(--muted);font-size:13px}.card-body{padding:17px 19px 18px;flex:1;display:flex;flex-direction:column}.card-title{font-size:18px;font-weight:700;margin:0 0 12px;overflow-wrap:anywhere;line-height:1.35;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
